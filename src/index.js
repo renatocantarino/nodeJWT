@@ -7,6 +7,7 @@ const payload = {
     aud: 'api.example.com'
 }
 
+
 let token = jwt.sign(payload, secret, {
     expiresIn: "1h"
 })
